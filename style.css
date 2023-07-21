@@ -129,15 +129,12 @@ font-weight: 500;
     -webkit-text-fill-color: transparent;
 }
 .banner-content p{
-    
-    color: #534C64;
-    text-align: left
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
+    color: #4c6455;
+    text-align: left;
+    font-size: 1.2rem;
     font-weight: 500;
-    line-height: normal;
     text-transform: lowercase;
+    
 }
 .banner-btn1{
 
@@ -194,19 +191,19 @@ font-weight: 500;
 .we-are-gamer-title{
     padding-top: 0px ;
     padding-bottom: 0px;
-text-align: right;
-font-size: 48px;
-font-weight: 700;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .our-pur{
     margin-top: -50px;
 }
 .we-are-gamer-description{
-  margin-top: -50px;
+    margin-top: -50px;
     padding-bottom: 0px;
     color: #534C64;
     text-align: right;
@@ -241,23 +238,23 @@ background-clip: text;
     margin-top: -40px;
     text-align: right;
     color: #534C64;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
-    line-height: 45px;
 
 }
 
 /*Section 01 We are gamer End. */
+
 /*Section 02 Online Games Funny Videos Start. */
 .online-games-content{
-
+    text-align: center;
 
 }
 
 .online-games-title{
+    margin-top: 120px;
+    margin-bottom: 16px;
     color: #0B0223;
-    text-align: right;
-    font-family: Work Sans;
     font-size: 48px;
     font-weight: 700;
 
@@ -272,20 +269,143 @@ background-clip: text;
 
 }
 .online-games-des{
+    text-align: center;
     color: #534C64;
-text-align: center;
-font-family: Work Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 
 }
 
+.online-games-card-container{
+
+    display: flex;
+    gap: 24px;
+    padding-top: 48px;
+    padding-left: 120px;
+   
+}
+.card-img{
+width: 250px;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+.card-img-des{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
 /*Section 02 Online Games Funny Videos End. */
 
+/* Section 03 Play Instantly Start */
+
+.play-instantle-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+.play-instantle-content-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.play-instantle-content-des{
+color: #534C64;
+font-size: 1.1rem;
+font-weight: 400;
+}
+.play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantle-img-container{
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+.play-instantle-img1{
+    
+    width: 450px;
+    height: 450px;
+    border-radius: 8px;
+
+}
+.play-instantle-img2 img{
+    margin-top: -180px;
+    margin-left: -100px;
+    width: 220px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+/* Section 03 Play Instantly End */
+
+/* Section 04 Play Games Start*/
+
+.play-games-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    
+}
+
+
+.play-games-content-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.play-games-content-des{
+color: #534C64;
+font-size: 1.1rem;
+font-weight: 400;
+}
+.play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-games-img-container{
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+.play-games-img1{
+width: 450px;
+height: 450px;
+border-radius: 8px;
+
+}
+.play-games-img2 img{
+    margin-top: -120px;
+    padding-left: 350px;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+
+}
 
 
 
+
+/* Section 04 Play Games End*/
 
 
 
@@ -295,10 +415,13 @@ font-weight: 400;
     .nav-container,
     .nav-content-section,
     .banner-container,
-    .we-are-gamer{
+    .we-are-gamer,
+    .about,
+    .online-games-card-container,
+    .play-instantle-container,
+    .play-games-container
+    {
         flex-direction: column;
-        
-
     }
     .banner-img img{
         width:350px;
@@ -343,21 +466,53 @@ font-weight: 400;
     .our-pur-des{
         text-align: center;
     }
-        
-  
+    .online-games-card-container{
+
+        padding-top: 48px;
+        padding-left: 90px;
+    }
+    .play-games-img1{
+       
+        width: 270px;
+        height: 270px;
+        border-radius: 8px;
+    }
+    .play-games-img2 img{
+        margin-top: -70px;
+        padding-left: 205px;
+        width: 120px;
+        height: 120px;
+        border-radius: 8px;
+    
+    }
+
+    .play-instantle-img1{
+        margin-right: -60px;
+        width: 270px;
+        height: 270px;
+        border-radius: 8px;
+    }
+    .play-instantle-img2 img{
+        margin-top: -80px;
+        margin-left: -50px;
+        width: 120px;
+        height: 150px;
+        border-radius: 8px;
+    }
+   
 }
 
-    /*Teblet and Medium Responsive devices*/
-    @media screen and (min-width:576px) and (max-width:992px){
-        .banner-container{
-            flex-direction: column;
-        }
-        .banner-content{
-            width: 409;
-           margin: 0 auto;
-        }
-        .banner-img{
-            padding-left: 100px;
-        } 
+
+/*Teblet and Medium Responsive devices*/
+@media screen and (min-width:576px) and (max-width:992px){
+    .banner-container{
+        flex-direction: column;
     }
+    .banner-content{
+        width: 409;
+       margin: 0 auto;
+    }
+    .banner-img{
+        padding-left: 100px;
+    } 
 }
