@@ -1,6 +1,7 @@
 /*Shared Section*/
 *{
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 
@@ -507,6 +508,84 @@ border-radius: 8px;
 
 /* Footer Section Start. */
 
+    .footer-container{
+        height: 636px;
+        background: #0B0223;
+        text-align: center;
+    }
+    .footer-title-container{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 563px ;
+        padding-top: 120px;
+        padding-bottom: 5px;
+    }
+
+    .f-t-img{
+        width: 80px;
+        height: 40px;
+    }
+    .f-t-name{
+        color: #FFF;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .f-t-g{
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .footer-manu-container {
+        display: flex;
+        gap: 10px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 400px ;
+        padding-bottom: 20px;
+
+    }
+    .footer-manu-container02{
+        display: flex;
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 450px ;
+        padding-top: 90px;
+        
+    }
+    .footer-social-icon ul  {
+       position:absolute;
+       margin-left: 200px;
+       transform: translate(-50%,-50%);
+       display: flex;
+       margin-left: 650px ;
+       padding-top: 50px;
+       padding-bottom: 10px;
+      
+    }
+    .footer-social-icon ul li{
+        list-style: none;
+        margin: 0 25px;
+        margin-left: 50px;
+    }
+    .footer-social-icon ul li .fab{
+        font-size: 35px;
+        line-height: 60px;
+        transition: .3s;
+        color: white;
+    }
+   .copy{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   }
 
 
 /* Footer Section Start. */
